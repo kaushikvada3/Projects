@@ -40,7 +40,7 @@ Clears past events to keep the sheet up-to-date.
 ### createGoogleTasksFromSheet()
 Syncs tasks from the sheet to Google Tasks.
 
-### createEventFromExtracirricular(), createEventFromSheetPersonl(), createEventFromSheetCollegeEvents()
+### createEventFromExtracirricular(), createEventFromSheetPersonal(), createEventFromSheetCollegeEvents()
 Different functions for adding specific types of events to the calendar.
 
 ### addEventsToAcademicCalendar()
