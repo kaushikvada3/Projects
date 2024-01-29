@@ -34,7 +34,7 @@ Each function in the script is designed to be executed either manually or can be
 
 - **addEventsToAcademicCalendar():** Manages academic assignments and deadlines.
 
-## Implementations
+## Implementations (w/pictures)
 ![image](https://github.com/kaushikvada3/Projects/assets/58670585/c1c80644-badc-4117-9abe-b4684bbd004c)
 
 ![Screenshot 2024-01-28 182512](https://github.com/kaushikvada3/Projects/assets/58670585/f29f768d-5736-41d4-a39a-86304d1c1aff)
