@@ -6,7 +6,8 @@ This project is a comprehensive suite of Google Apps Script functions designed t
 ## Features
 - **Automated Event Synchronization:** Integrates with Google Calendar to automatically create and update events from Google Sheets data for different categories like internships, personal activities, extracurriculars, and college events.
 
-- **Dynamic Task Management:** Employs custom scripts to manage tasks and assignments within Google Sheets, including functionality to add tasks to Google Tasks, check and delete rows based on due dates and completion status, and clear completed tasks.
+- **Dynamic Task Management:** Employs custom scripts to manage tasks and assignments ![Screenshot 2024-01-28 174217](https://github.com/kaushikvada3/Projects/assets/58670585/811ae5b9-7a4b-469c-a924-0a29956adece)
+within Google Sheets, including functionality to add tasks to Google Tasks, check and delete rows based on due dates and completion status, and clear completed tasks.
 
 - **Efficient Data Processing:** Incorporates advanced data manipulation techniques to clear past events and adjust task and event listings dynamically based on date and status changes.
 
@@ -33,8 +34,9 @@ Each function in the script is designed to be executed either manually or can be
 
 - **addEventsToAcademicCalendar():** Manages academic assignments and deadlines.
 
+## Implementations
+![image](https://github.com/kaushikvada3/Projects/assets/58670585/c1c80644-badc-4117-9abe-b4684bbd004c)
 
+![Screenshot 2024-01-28 182512](https://github.com/kaushikvada3/Projects/assets/58670585/f29f768d-5736-41d4-a39a-86304d1c1aff)
 
-
-
-
+![image](https://github.com/kaushikvada3/Projects/assets/58670585/8184e9e9-4c92-43db-bb0e-e1af892232a6)
