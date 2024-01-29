@@ -32,3 +32,9 @@ Each function in the script is designed to be executed either manually or can be
 - **createEventFromExtracirricular(), createEventFromSheetPersonal(), createEventFromSheetCollegeEvents():** Different functions for adding specific types of events to the calendar.
 
 - **addEventsToAcademicCalendar():** Manages academic assignments and deadlines.
+
+
+
+
+
+
