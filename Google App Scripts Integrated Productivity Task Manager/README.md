@@ -17,9 +17,7 @@ within Google Sheets, including functionality to add tasks to Google Tasks, chec
 
 - **Timed-Execution:** Features automated timed executions that run each function in the code when certain conditions are met.
 
-# Integration with Google Tasks API
-
-## Innovative Task Management Through API Connectivity
+## Innovative Task Management Through Google Tasks API Integration and Connectivity
 
 In this project, a key feature is the innovative use of the Google Tasks API, which plays a pivotal role in managing tasks and task lists directly from Google Sheets. This integration facilitates a dynamic and real-time reflection of tasks in the user's personal Google Calendar, thereby offering a seamless and automated workflow for task tracking and management.
 
