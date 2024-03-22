@@ -22,6 +22,7 @@ void displayClock()
     cout << setfill(' ') << setw(55) << " --------------------------\n";
 }
 
+
 void timer()
 {
     // loop until the timer reaches 00:00:00
