@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kaushikvada/Documents/Computer Science/Github Repos/Projects/Timer and Stopwatch",
+      "program": "/Users/kaushikvada/Documents/Computer Science/Github Repos/Projects/Timer and Stopwatch/build/Debug/outDebug"
+    }
+  ]
+}
