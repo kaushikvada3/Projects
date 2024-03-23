@@ -6,7 +6,9 @@
 
 using namespace std;
 
-// Implementations of Card methods
+/*------------------------------------- Card Methods ------------------------------------------*/
+
+//the constructor for the card class
 Card::Card(string r, string s) : rank(r), suit(s) {} //constructor
 
 int Card::getValue() const
@@ -37,8 +39,8 @@ int Card::getValue() const
 
 /*------------------------------------- Player Methods ------------------------------------------*/
 
-// Implementations of Player methods
-Player::Player() : hasCalledCambio(false) {} //constructor
+// The constructor for the Player class
+Player::Player() : hasCalledCambio(false) {}
 
 
 // Implement method to allow player to view a card from their hand
@@ -47,29 +49,29 @@ void Player::viewCard(int cardIndex)
     // Check if the provided index is within the range of the player's hand
     if (cardIndex >= 0 && cardIndex < hand.size())
     {
-        // The index is valid, print the card's details
+        // if the index is valid, print the card's details
         Card &selectedCard = hand[cardIndex]; // Reference to avoid copying
         cout << "Card at index " << cardIndex << ": "
                   << selectedCard.rank << " of " << selectedCard.suit << endl;
     }
     else
     {
-        // The index is out of range, print an error message
+        // if the index is out of range, print an error message
         cout << "Invalid card index: " << cardIndex << endl;
     }
 }
 
 void Player::swapCard(Player &other, int myCardIdx, int theirCardIdx)
 {
-   /*your typical swap algorithm that involves using a temporary variable to hold something while switching*/
+   /* your typical swap algorithm that involves using a temporary variable to hold something while switching */
 
-    // Step 1: Save a copy of 'my' card that's going to be swapped.
+    // Step 1: Save a copy of 'myCard' that's going to be swapped.
     Card myCard = this->hand[myCardIdx];
 
-    // Step 2: Replace 'my' card with the card from 'other' player's hand.
+    // Step 2: Replace 'myCard' with the card from 'other' player's hand.
     this->hand[myCardIdx] = other.hand[theirCardIdx];
 
-    // Step 3: Replace 'other' player's card with 'my' original card.
+    // Step 3: Replace 'other' player's card with 'myCard'.
     other.hand[theirCardIdx] = myCard;
 }
 
@@ -119,16 +121,12 @@ void Player::replaceCard(int cardIndex, vector<Card> &drawPile, vector<Card> &di
 
     // Replace the old card in the player's hand with the new card (drawnCard).
     hand[cardIndex] = drawnCard;
-
-    // Note: In a full game implementation, you might also need to handle the situation where the drawPile is empty.
-    // This could involve shuffling the discardPile to create a new drawPile, etc.
-    // But those details depend on the specific rules of your card game.
 }
 
 void Player::callCambio()
 {
-    // Set the player's Cambio status. This indicates they believe they have
-    // the lowest score and are calling the end of the gameplay round.
+    // Set the player's Cambio status which indicates that they believe they have
+    // the lowest score and are calling the end of the round for the game.
     this->hasCalledCambio = true;
     cout << "Cambio called!" << endl;
 }
@@ -149,9 +147,7 @@ int Player::calculateScore() const
     return score;
 }
 
-
 /*-----------------------------------------CambioGames Methods---------------------------------------*/
-
 
 // Implementations of CambioGame methods
 CambioGame::CambioGame(int numberOfPlayers)
@@ -185,18 +181,7 @@ void CambioGame::endGame()
     // Implement method for ending the game
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------------------------------- Main Function (to test the game) ------------------------------------------*/
 
 // Main function (optional, can be in a separate file)
 int main()
